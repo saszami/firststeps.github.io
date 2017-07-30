@@ -3,13 +3,15 @@
 @color-menu: #232323;
 @color-text: #232323;
 @color-bg-header-1: #f8c14c;
+@color-bg-header-1-dark: #f4a124;
 @color-bg-header-2: #fbd59c;
 @color-header-2: #505050;
 @color-bg-icon: #e5e5e5;
 @color-br-top: #fff;
 
 // fonts
-@font-header: 'PT Sans Narrow', sans-serif;
+@font-menu: "PT Sans Narrow", sans-serif;
+@font-header: "Oswald", sans-serif;
 
 // mixins
 .text-sample() {
@@ -23,19 +25,27 @@
 	color: @color-text;
 }
 
-
 // start
-.header-1 {
-	background-color: @color-bg-header-1;
-	background-image: url(../img/bg-header.jpg);
-	background-position: bottom;
-	background-repeat: repeat-x;
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Sans+Narrow');
+
+body {
+  font-family: @font-header;
+}
+
+.header-bg {
+	background: linear-gradient(0, @color-bg-header-1-dark, @color-bg-header-1);
 	padding-bottom: 25px;
 	.header {
 	margin-top: 40px;
 	}
 }
-	.logo {
+.header-bg-2 {
+	background-color: @color-bg-header-2;
+    border-top: 3px solid @color-br-top;
+    min-height: 77px;
+    margin-bottom: 20px;
+}
+.logo {
 	margin-bottom: 10px;
 }
 .menue {
@@ -43,7 +53,7 @@
 	background-color: @color-menu;
 	padding: 15px;
 	a {
-		font-family: @font-header;
+		font-family: @font-menu;
 		color: @color-bg;
 		font-size: 18px;
 		position: relative;
@@ -66,21 +76,16 @@
 		}
 	}
 }
-.header-2 {
-	 background-color: @color-bg-header-2;
-	 border-top: @color-br-top 3px solid;
-	 height: 100%;
-	 margin: 0 auto 50px;
-	 padding-bottom: 10px;
+
 	h1 {
+    	padding: 0;
 		font-family: @font-header;
 		text-transform: uppercase;
-		font-weight: 800;
+		font-weight: 300;
 		color: @color-header-2;
 		font-size: 28px;
 		display: block;
 	}
-}
 .icon, .text, .text-big {
 	display: inline-block;
 	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.09), -1px -1px 4px 1px rgba(0, 0, 0, 0.09);
@@ -139,3 +144,4 @@ body {
   background-color: @color-bg;
 }
 
+    /* background: linear-gradient(0, #f4a124, #f8c14c); */
