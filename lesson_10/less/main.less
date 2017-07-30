@@ -1,0 +1,141 @@
+// colors 
+@color-bg: #f8be48;
+@color-menu: #232323;
+@color-text: #232323;
+@color-bg-header-1: #f8c14c;
+@color-bg-header-2: #fbd59c;
+@color-header-2: #505050;
+@color-bg-icon: #e5e5e5;
+@color-br-top: #fff;
+
+// fonts
+@font-header: 'PT Sans Narrow', sans-serif;
+
+// mixins
+.text-sample() {
+	font-family: Tahoma, sans-serif;
+	font-size: 14px;
+	text-decoration: underline;
+	height: 100%;
+	background-color: @color-bg-icon;
+}
+.a() {
+	color: @color-text;
+}
+
+
+// start
+.header-1 {
+	background-color: @color-bg-header-1;
+	background-image: url(../img/bg-header.jpg);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	padding-bottom: 25px;
+	.header {
+	margin-top: 40px;
+	}
+}
+	.logo {
+	margin-bottom: 10px;
+}
+.menue {
+	height: 80px;
+	background-color: @color-menu;
+	padding: 15px;
+	a {
+		font-family: @font-header;
+		color: @color-bg;
+		font-size: 18px;
+		position: relative;
+		display: inline-block;
+		padding: 10px 15px;
+	}
+	a:hover {
+		text-decoration: none;
+		color: @color-bg-header-2;
+	}
+	ul {
+	list-style: none;
+	width: 100%;
+	padding: 0;
+		li {
+		text-align: center;
+		position: relative;
+	  	display: inline-block; 
+	  	width: 16%;
+		}
+	}
+}
+.header-2 {
+	 background-color: @color-bg-header-2;
+	 border-top: @color-br-top 3px solid;
+	 height: 100%;
+	 margin: 0 auto 50px;
+	 padding-bottom: 10px;
+	h1 {
+		font-family: @font-header;
+		text-transform: uppercase;
+		font-weight: 800;
+		color: @color-header-2;
+		font-size: 28px;
+		display: block;
+	}
+}
+.icon, .text, .text-big {
+	display: inline-block;
+	box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.09), -1px -1px 4px 1px rgba(0, 0, 0, 0.09);
+}
+.icon {
+	height: 100%;
+	padding-top: 8px;
+	border-right: 1px dotted #c2c2c2;
+}
+.cars {
+	height: 76px;
+	margin-bottom: 20px;
+	img {
+		height: 60px;
+		display: block;
+		margin: auto;
+	}
+}
+.text {
+	color: @color-text;
+	padding: 25px 10px 25px 5px;
+	.text-sample;
+	a {
+		.a;
+	}
+}
+
+.text-big {
+	.text-sample;
+	padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 25px;
+    a {
+    	.a;
+    }
+
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 5px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 5px;
+  background-color: @color-bg;
+}
+

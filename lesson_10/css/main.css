@@ -1,0 +1,120 @@
+.header-1 {
+  background-color: #f8c14c;
+  background-image: url(../img/bg-header.jpg);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  padding-bottom: 25px;
+}
+.header-1 .header {
+  margin-top: 40px;
+}
+.logo {
+  margin-bottom: 10px;
+}
+.menue {
+  height: 80px;
+  background-color: #232323;
+  padding: 15px;
+}
+.menue a {
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #f8be48;
+  font-size: 18px;
+  position: relative;
+  display: inline-block;
+  padding: 10px 15px;
+}
+.menue a:hover {
+  text-decoration: none;
+  color: #fbd59c;
+}
+.menue ul {
+  list-style: none;
+  width: 100%;
+  padding: 0;
+}
+.menue ul li {
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  width: 16%;
+}
+.header-2 {
+  background-color: #fbd59c;
+  border-top: #ffffff 3px solid;
+  height: 100%;
+  margin: 0 auto 50px;
+  padding-bottom: 10px;
+}
+.header-2 h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: #505050;
+  font-size: 28px;
+  display: block;
+}
+.icon,
+.text,
+.text-big {
+  display: inline-block;
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.09), -1px -1px 4px 1px rgba(0, 0, 0, 0.09);
+          box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.09), -1px -1px 4px 1px rgba(0, 0, 0, 0.09);
+}
+.icon {
+  height: 100%;
+  padding-top: 8px;
+  border-right: 1px dotted #c2c2c2;
+}
+.cars {
+  height: 76px;
+  margin-bottom: 20px;
+}
+.cars img {
+  height: 60px;
+  display: block;
+  margin: auto;
+}
+.text {
+  color: #232323;
+  padding: 25px 10px 25px 5px;
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  height: 100%;
+  background-color: #e5e5e5;
+}
+.text a {
+  color: #232323;
+}
+.text-big {
+  font-family: Tahoma, sans-serif;
+  font-size: 14px;
+  text-decoration: underline;
+  height: 100%;
+  background-color: #e5e5e5;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 25px;
+}
+.text-big a {
+  color: #232323;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 5px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 5px;
+  background-color: #f8be48;
+}
