@@ -1,0 +1,21 @@
+.placeholder-text() {
+color: №777777;
+font-style: italic;
+font-weight: 500;
+font-size: 12px;
+}
+
+/* PLACEHOLDER STYLE */
+::-webkit-input-placeholder { /* WebKit browsers */
+.placeholder-text;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+.placeholder-text;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+.placeholder-text;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+.placeholder-text;
+}
+/*PLACEHOLDER STYLE END */
