@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&subset=cyrillic');
+.section {
+  background: #ffffff url(../img/bg.png) repeat;
+  height: 100vh;
+  width: 100vw;
+  display: table-cell;
+  vertical-align: middle;
+}
+.image {
+  padding: 30px;
+}
+.image-1 {
+  background: #ffffff url(../img/img-1.jpg) center no-repeat;
+  height: 400px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 6px;
+}
+.image-1:hover::before {
+  content: 'Здесь';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  color: #fff;
+  font-family: 'Lobster', sans-serif;
+}
+.image-2 {
+  background: #ffffff url(../img/img-2.jpg) center no-repeat;
+  height: 400px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 6px;
+}
+.image-2:hover::before {
+  content: 'могут';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  color: #fff;
+  font-family: 'Lobster', sans-serif;
+}
+.image-3 {
+  background: #ffffff url(../img/img-3.jpg) center no-repeat;
+  height: 400px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 6px;
+}
+.image-3:hover::before {
+  content: 'быть';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  color: #fff;
+  font-family: 'Lobster', sans-serif;
+}
+.image-4 {
+  background: #ffffff url(../img/img-4.jpg) center no-repeat;
+  height: 400px;
+  margin-bottom: 20px;
+  background-size: cover;
+  border-radius: 6px;
+}
+.image-4:hover::before {
+  content: 'слова';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  line-height: 400px;
+  color: #fff;
+  font-family: 'Lobster', sans-serif;
+}
