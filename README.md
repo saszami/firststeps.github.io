@@ -47,3 +47,6 @@
 
 
 [Шаг 2](saszami.github.io/practise/step_2// "Шаг 2") - первая секция
+
+
+[Шаг 3](saszami.github.io/practise/step_3// "Шаг 3") - hover кнопок и адаптивность
