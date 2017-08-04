@@ -36,6 +36,8 @@
 [Урок 15](https://saszami.github.io/lesson_15/ "Урок 15") - псевдокласс :hover и псевдоэлемент ::before
 
 
+[Урок 16](https://saszami.github.io/lesson_16/ "Урок 16") - слайдер
+
 
 *****
 ## Практика
