@@ -46,7 +46,10 @@
 [Шаг 1](https://saszami.github.io/project/ "Шаг 1") - шапка сайта
 
 
-[Шаг 2](saszami.github.io/practise/step_2// "Шаг 2") - первая секция
+[Шаг 2](https://saszami.github.io/practise/step_2/ "Шаг 2") - первая секция
 
 
-[Шаг 3](saszami.github.io/practise/step_3// "Шаг 3") - hover кнопок и адаптивность
+[Шаг 3](https://saszami.github.io/practise/step_3/ "Шаг 3") - hover кнопок и адаптивность
+
+
+[Шаг 4](https://saszami.github.io/practise/step_4/ "Шаг 4") - адаптивный слайдер с преимуществами
