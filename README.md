@@ -58,3 +58,6 @@
 
 
 [Шаг 5](https://saszami.github.io/practise/step_5/ "Шаг 5") - всплывающее окно
+
+
+[Шаг 6](https://saszami.github.io/practise/step_6/ "Шаг 6") - блок с ценами
