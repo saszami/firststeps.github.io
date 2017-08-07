@@ -114,7 +114,7 @@ section {
   padding: 1.7rem;
   border: 1px solid #dddddd;
   border-radius: 5px;
-  padding: 1.5 rem;
+  padding: 1.5rem;
 }
 .main-form label {
   position: absolute;
@@ -224,7 +224,7 @@ section {
   background-color: #ffffff;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  padding: 4rem 6rem;
+  padding: 4rem 7rem;
 }
 .popup-form {
   margin-top: 3rem;
