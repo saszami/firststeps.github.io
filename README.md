@@ -39,6 +39,8 @@
 [Урок 16](https://saszami.github.io/lesson_16/ "Урок 16") - слайдер
 
 
+[Урок 17](https://saszami.github.io/lesson_17/ "Урок 17") - всплывающее окно
+
 *****
 ## Практика
 
@@ -53,3 +55,6 @@
 
 
 [Шаг 4](https://saszami.github.io/practise/step_4/ "Шаг 4") - адаптивный слайдер с преимуществами
+
+
+[Шаг 5](https://saszami.github.io/practise/step_5/ "Шаг 5") - всплывающее окно
