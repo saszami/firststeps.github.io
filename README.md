@@ -41,6 +41,9 @@
 
 [Урок 17](https://saszami.github.io/lesson_17/ "Урок 17") - всплывающее окно
 
+
+[Урок 18](https://saszami.github.io/lesson_18/ "Урок 18") - табы
+
 *****
 ## Практика
 
