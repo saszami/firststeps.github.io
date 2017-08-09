@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script&subset=cyrillic');
+.section {
+  position: absolute;
+  display: table;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+.section .box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.section .box h1 {
+  color: #fff;
+  font-size: 80px;
+  font-family: 'Bad Script', cursive;
+  text-shadow: 2px 2px 5px rgba(0, 2, 14, 0.7);
+}
