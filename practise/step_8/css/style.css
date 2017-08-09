@@ -136,6 +136,9 @@ section {
   margin-bottom: 4rem;
   font-size: 1.8rem;
 }
+.main-form-header h2 {
+  font-size: 1.8rem;
+}
 .main-form-header strong {
   font-size: 1.9rem;
 }
