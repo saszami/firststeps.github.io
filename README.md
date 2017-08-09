@@ -45,6 +45,8 @@
 [Урок 18](https://saszami.github.io/lesson_18/ "Урок 18") - табы
 
 
+[Урок 19](https://saszami.github.io/lesson_19/ "Урок 19") - анимация
+
 
 [Урок 20](https://saszami.github.io/lesson_20/ "Урок 20") - видеофон!
 
