@@ -64,3 +64,6 @@
 
 
 [Шаг 6](https://saszami.github.io/practise/step_6/ "Шаг 6") - блок с ценами
+
+
+[Шаг 7](https://saszami.github.io/practise/step_7/ "Шаг 7") - слайдер с отзывами
