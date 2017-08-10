@@ -1,0 +1,102 @@
+body {
+	background-color: #F4E285;
+}
+.section {
+	&-1 {
+		margin: 10px;
+		.definition {
+			margin: auto;
+			max-width: 500px;
+			min-height: auto;
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			border: 10px solid #5DA271;
+			p {
+				text-align: justify;
+				span {
+					font-style: italic;
+				}
+			}
+		}
+		.down {
+			margin-top: 20px;
+			animation-iteration-count: infinite;
+			animation-duration: 3s;
+			img {
+				width: 50px;
+				height: auto;
+			}
+		}
+	}
+	&-2 {
+		margin-top: 10px;
+		max-height: 500px;
+		position: relative;
+		.box {
+			&-1 {
+				margin: 10px;
+				display: inline-block;
+				width: 200px;
+				height: 200px;
+				background: #F4A259;
+			}
+			&-2 {
+				margin: 10px;
+				display: inline-block;
+				position: relative;
+				width: 100px;
+				height: 300px;
+				background: #8CB369;
+			}
+			&-3 {
+				margin: 10px;
+				display: inline-block;
+				width: 150px;
+				height: 150px;
+				background: #D64933;
+				border-radius: 75px;
+			}
+			&-4 {
+				margin: 10px;
+				display: inline-block;
+				width: 0;
+				height: 0;
+				border-left: 50px solid transparent;
+				border-right: 50px solid transparent;
+				border-bottom: 100px solid #E3E3E3;
+			}
+			&-5 {
+				display: inline-block;
+				margin: 10px;
+			}
+		}
+	}
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 5px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 200px;
+  background: url(../img/grass.png) 0 50px repeat-x;
+  background-size: auto 200px;
+}
+  .doge {
+  	img {
+  	position: absolute;
+  	left: 0;
+  	bottom: 0;
+  	display: inline-block;
+  	height: 200px;
+  }
+ }
