@@ -79,3 +79,6 @@
 
 
 [Шаг 8](https://saszami.github.io/practise/step_8/ "Шаг 8") - доделываем слайдер с отзывами+адаптив
+
+
+[Шаг 9](https://saszami.github.io/practise/step_9/ "Шаг 9") - схема работы и все включено
