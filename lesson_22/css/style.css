@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600&subset=cyrillic');
+/* Fonts */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+img {
+  vertical-align: top;
+}
+.contacts {
+  position: absolute;
+  bottom: 0px;
+  padding: 70px;
+  height: 430px;
+  width: 380px;
+  text-align: center;
+  background: #c60b0b;
+  color: #ffffff;
+}
+.contacts h1 {
+  margin: 0;
+  font-size: 30px;
+}
+.contacts p {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.contacts p span {
+  text-decoration: underline;
+}
+.footer-logo {
+  padding-top: 20px;
+  font-size: 16px;
+}
+.footer-logo p {
+  margin-left: 15px;
+  display: inline-block;
+}
+.footer-description {
+  padding-top: 30px;
+  font-size: 14px;
+  color: #666666;
+}
+.footer-adress {
+  font-size: 14px;
+}
+.footer-adress strong {
+  font-size: 22px;
+  font-weight: semi-bold;
+  line-height: 2;
+}
