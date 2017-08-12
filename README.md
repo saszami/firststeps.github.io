@@ -53,6 +53,9 @@
 
 [Урок 21](https://saszami.github.io/lesson_21/ "Урок 21") - параллакс!
 
+
+[Урок 22](https://saszami.github.io/lesson_22/ "Урок 22") - геолокация
+
 *****
 ## Практика
 
