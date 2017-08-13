@@ -85,3 +85,6 @@
 
 
 [Шаг 9](https://saszami.github.io/practise/step_9/ "Шаг 9") - схема работы и все включено
+
+
+[Шаг 10](https://saszami.github.io/practise/step_10/ "Шаг 10") - проблемы
