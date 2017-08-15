@@ -91,3 +91,6 @@
 
 
 [Шаг 11](https://saszami.github.io/practise/step_11/ "Шаг 11") - материалы
+
+
+[Шаг 12](https://saszami.github.io/practise/step_12/ "Шаг 12") - экскурсия и допуслуги
