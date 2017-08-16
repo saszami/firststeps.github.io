@@ -94,3 +94,6 @@
 
 
 [Шаг 12](https://saszami.github.io/practise/step_12/ "Шаг 12") - экскурсия и допуслуги
+
+
+[Шаг 13](https://saszami.github.io/practise/step_13/ "Шаг 13") - контакты и футер!
