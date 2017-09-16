@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">  
   <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lightgallery.min.css" rel="stylesheet" />
-  <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lg-fb-comment-box.min.css" rel="stylesheet" />
+  <link href="css/lg-fb-comment-box.min.css" rel="stylesheet" />
   <title>Document</title>
 
  
@@ -29,7 +29,7 @@
      </script>
     
   <!-- Gallery -->
-  <div id="lightgallery">
+  <div id="lightgallery" id="commentbox">
     <a href="https://s8.hostingkartinok.com/uploads/images/2017/09/23a6461b9b8a8cb0a25e046c26053cf6.jpg" data-sub-html='<div class="fb-comments" data-href="https://saszami.github.io/stackOverflow/#lg=1&slide=0" data-width="400" data-numposts="5"></div>'>
       <img src="https://s8.hostingkartinok.com/uploads/thumbs/2017/09/23a6461b9b8a8cb0a25e046c26053cf6.png" />
     </a>
@@ -54,7 +54,7 @@
       hash: true
     }); 
  
-   var commentBox = document.getElementById('lightgallery');
+   var commentBox = document.getElementById('commentbox');
  
  lightGallery(commentBox, {
  appendSubHtmlTo: '.lg-item',
