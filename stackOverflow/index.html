@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+  <meta charset="UTF-8">  
   <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lightgallery.min.css" rel="stylesheet" />
-<link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lg-fb-comment-box.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lg-fb-comment-box.min.css" rel="stylesheet" />
+  <title>Document</title>
+
  
 </head>
 <body>
@@ -52,34 +53,6 @@
     lightGallery(document.getElementById('lightgallery'), {
       hash: true
     }); 
-
-    var commentBox = document.getElementById('lightgallery');
- 
-lightGallery(commentBox, {
-    appendSubHtmlTo: '.lg-item',
-    addClass: 'fb-comments',
-    mode: 'lg-fade',
-    download: false,
-    enableDrag: false,
-    enableSwipe: false
-});
- 
-commentBox.addEventListener('onAfterSlide', function(event) {
-    var items = document.querySelectorAll('.lg-outer .lg-item');
-    if (!items[event.detail.index].getAttribute('data-fb')) {
-        try {
-            items[event.detail.index].setAttribute('data-fb', 'loaded');
-            FB.XFBML.parse();
-        } catch (err) {
-            window.addEventListener('fbAsyncInit', function() {
-                items[event.detail.index].setAttribute('data-fb', 'loaded');
-                FB.XFBML.parse();
-            });
-        }
-    }
-});
-</script>
- <!--  <script>
  
    var commentBox = document.getElementById('lightgallery');
  
@@ -105,6 +78,6 @@ commentBox.addEventListener('onAfterSlide', function(event) {
    }
  }
  });
- </script> -->
+ </script>
 </body>
 </html>
