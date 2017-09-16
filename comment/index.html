@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> 
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lg-fb-comment-box.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/css/lightgallery.min.css" rel="stylesheet" />
+</head>
+ 
+<body>
+ <!--Facebook script-->
+  <div id="fb-root"></div>
+  <script>
+    (function(d, s, id) {
+
+      var js, fjs = d.getElementsByTagName(s)[0];
+
+      if (d.getElementById(id)) return;
+
+      js = d.createElement(s);
+      js.id = id;
+
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.4";
+
+      fjs.parentNode.insertBefore(js, fjs);
+
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  <!-- Gallery -->
+  <div id="lightgallery">
+    <a href="https://s8.hostingkartinok.com/uploads/images/2017/09/23a6461b9b8a8cb0a25e046c26053cf6.jpg" data-sub-html='<div class="fb-comments" data-href="https://saszami.github.io/stackOverflow/#lg=1&slide=0" data-width="400" data-numposts="5"></div>'>
+      <img src="https://s8.hostingkartinok.com/uploads/thumbs/2017/09/23a6461b9b8a8cb0a25e046c26053cf6.png" />
+    </a>
+
+    <a href="https://s8.hostingkartinok.com/uploads/images/2017/09/6345b81bd20f2f9993fbe64a5a461dd5.jpg" data-sub-html='<div class="fb-comments" data-href="https://saszami.github.io/stackOverflow/#lg=1&slide=1" data-width="400" data-numposts="5"></div>'>
+      <img src="https://s8.hostingkartinok.com/uploads/thumbs/2017/09/6345b81bd20f2f9993fbe64a5a461dd5.png" />
+    </a>
+  </div>
+
+
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <!--lightgallery js-->
+  <script src="https://cdn.jsdelivr.net/npm/lightgallery.js@1.0.1/dist/js/lightgallery.min.js"></script>
+ <!--lightgallery hash plugin-->
+  <script src="js/lg-hash.min.js"></script>
+<script>
+  // lightgallery commentbox
+
+  var commentBox = document.getElementById('lightgallery');
+
+lightGallery(commentBox, {
+  appendSubHtmlTo: '.lg-item',
+  addClass: 'fb-comments',
+  download: false,
+  enableDrag: false,
+  enableSwipe: false
+});
+
+commentBox.addEventListener('onAfterSlide', function(event) {
+  var items = document.querySelectorAll('.lg-outer .lg-item');
+  if (!items[event.detail.index].getAttribute('data-fb')) {
+    try {
+      items[event.detail.index].setAttribute('data-fb', 'loaded');
+      FB.XFBML.parse();
+    } catch (err) {
+      window.addEventListener('fbAsyncInit', function() {
+        items[event.detail.index].setAttribute('data-fb', 'loaded');
+        FB.XFBML.parse();
+      });
+    }
+  }
+});
+
+</script>
+
+</body>
+</html>
